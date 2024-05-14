@@ -27,7 +27,7 @@ const randomQuote = function () {
   quoteText.textContent = quote.text;
   setTimeout(function () {
     complete();
-  }, 1000);
+  }, 1500);
 };
 randomQuote();
 
@@ -50,7 +50,7 @@ function copyQuote() {
   navigator.clipboard.writeText(fullQuote);
   setTimeout(function () {
     copyComplete();
-  }, 1000);
+  }, 1800);
 }
 
 newQuoteBtn.addEventListener("click", randomQuote);
