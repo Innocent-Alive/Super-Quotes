@@ -27,7 +27,7 @@ const randomQuote = function () {
   quoteText.textContent = quote.text;
   setTimeout(function () {
     complete();
-  }, 1500);
+  }, 1200);
 };
 randomQuote();
 
