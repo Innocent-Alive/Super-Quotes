@@ -50,7 +50,7 @@ function copyQuote() {
   navigator.clipboard.writeText(fullQuote);
   setTimeout(function () {
     copyComplete();
-  }, 1800);
+  }, 1000);
 }
 
 newQuoteBtn.addEventListener("click", randomQuote);
